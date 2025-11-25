@@ -1,0 +1,19 @@
+metric,value
+Total clusters (original),251
+Clusters kept,5
+Total nodes (original),2394
+Nodes in top 5 clusters,1857
+Percentage of nodes kept,77.57%
+Total edges (original),53363
+Edges in top 5 clusters,49817
+Percentage of edges kept,93.35%
+Cluster 1 ID,0
+Cluster 1 size,844
+Cluster 2 ID,1
+Cluster 2 size,676
+Cluster 3 ID,2
+Cluster 3 size,174
+Cluster 4 ID,3
+Cluster 4 size,90
+Cluster 5 ID,4
+Cluster 5 size,73
