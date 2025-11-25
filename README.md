@@ -9,7 +9,7 @@ This dataset contains a breast cancer-focused protein-protein interaction (PPI) 
 1. **Source**: Downloaded PPI data from [STRING database](https://string-db.org/)
 2. **Seed Set**: Started with breast cancer-associated proteins
 3. **Network Expansion**: Performed 1-step BFS to include direct neighbors
-4. **Sequence Retrieval**: Fetched amino acid sequences using Ensembl REST API
+4. **Sequence Retrieval**: Fetched amino acid sequences using Ensembl REST API and UniProt
 
 ## Processed Data Files
 
@@ -51,8 +51,3 @@ The node IDs (0-2393) are used consistently across all files:
 - Use `brca_protein_info.csv` to map node IDs to protein identifiers and metadata
 - Use `brca_ppi_edgelist_cleaned.csv` for network topology
 - Use `node_to_sequence.json` to access amino acid sequences for each protein
-
-## Scripts
-
-- `fetch_protein.py`: Retrieves protein sequences from Ensembl API
-- `check_parallel_reverse_edges.py`: Cleans edge list by removing duplicates and reverse edges
