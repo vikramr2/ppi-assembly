@@ -51,3 +51,13 @@ The node IDs (0-2393) are used consistently across all files:
 - Use `brca_protein_info.csv` to map node IDs to protein identifiers and metadata
 - Use `brca_ppi_edgelist_cleaned.csv` for network topology
 - Use `node_to_sequence.json` to access amino acid sequences for each protein
+
+## Seed Proteins
+
+- **DNA repair genes**: BRCA1, BRCA2, TP53, PTEN, ATM, CHEK2, PALB2, BARD1, BRIP1, RAD51C, RAD51D
+- **Hormone receptors**: ESR1, ESR2, PGR, AR
+- **Growth factor receptors**: ERBB2, EGFR, ERBB3
+- **PI3K/AKT/MTOR pathway**: PIK3CA, PIK3R1, AKT1, AKT2, MTOR
+- **Cell cycle regulators**: CCND1, CDK4, CDK6, CDKN2A, RB1
+- **Transcription factors**: GATA3, FOXA1, MYC
+- **Other breast cancer genes**: CDH1, STK11, MAP3K1, ARID1A
